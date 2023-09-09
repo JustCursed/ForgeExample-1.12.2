@@ -40,6 +40,8 @@ repositories {
 
 dependencies {
 	implementation fileTree(dir: project.lib, include: ['*-dev.jar', '*-deobf.jar'], exclude: [])
+
+//	deobfCompile 'curse.maven' // use only for maven
 }
 
 jar {
